@@ -1,0 +1,173 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Verifying Adactinhotel Login details with Valid Credentials",
+        "description": "",
+        "id": "verifying-adactinhotel-login-details;verifying-adactinhotel-login-details-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 78834640100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the Adactinhotel Page",
+            "match": {
+              "location": "AdactinStep.user_is_on_the_Adactinhotel_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4851930962,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should Login with \"NirmalKumarNatesan\",\"Nirmalhari@1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"NirmalKumarNatesan\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"Nirmalhari@1\"",
+                  "offset": 44
+                }
+              ],
+              "location": "AdactinStep.user_should_Login_with(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1989198084,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should Search the Hotel with \"Melbourne\",\"Hotel Cornice\",\"Double\",\"2 - Two\",\"21-06-2022\",\"22-06-2022\",\"2 - Two\",\"3 - Three\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Melbourne\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"Hotel Cornice\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 71
+                },
+                {
+                  "val": "\"21-06-2022\"",
+                  "offset": 81
+                },
+                {
+                  "val": "\"22-06-2022\"",
+                  "offset": 94
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 107
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 117
+                }
+              ],
+              "location": "AdactinStep.user_should_Search_the_Hotel_with(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1162095934,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should Select the hotel using Continue",
+            "match": {
+              "location": "AdactinStep.user_should_Select_the_hotel_using_Continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1376553307,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Should Book the Hotel using \"kandasamy\",\"bala\",\"1/16,sivakasi\",\"1234123412341234\",\"VISA\",\"June\",\"2022\" , \"122\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kandasamy\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"bala\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"1/16,sivakasi\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"1234123412341234\"",
+                  "offset": 68
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 87
+                },
+                {
+                  "val": "\"June\"",
+                  "offset": 94
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 101
+                },
+                {
+                  "val": "\"122\"",
+                  "offset": 110
+                }
+              ],
+              "location": "AdactinStep.user_Should_Book_the_Hotel_using(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5824821016,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should Confirm the booking using order id",
+            "match": {
+              "location": "AdactinStep.user_should_Confirm_the_booking_using_order_id()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "verifying Adactinhotel Login Details",
+    "description": "",
+    "id": "verifying-adactinhotel-login-details",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/adactin.feature",
+    "tags": []
+  }
+]
